@@ -16,7 +16,7 @@ This folder includes LSTM, GRU, and hybrid model notebooks for stock price predi
 ## Structure
 
 Each model:
-- Uses a 60-time-step sequence window
+- Uses a 30-time-step sequence window
 - Applies MinMaxScaler for normalization
 - Evaluated using RMSE and R²
 - Tuned using Random Search
